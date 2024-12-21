@@ -546,7 +546,7 @@ footer {
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
-	width: 1400px;
+	width: 1200px;
 }
 
 .project-image {
@@ -555,9 +555,9 @@ footer {
 
 .project-info {
     position: absolute;
-    top: 50%;
+	top: 50%;
     transform: translateY(-50%);
-    margin-left: 640px;
+	margin-left: 750px;
     padding: 15px
 }
 
