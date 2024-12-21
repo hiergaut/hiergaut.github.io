@@ -540,11 +540,13 @@ footer {
 
 .project {
     position: relative;
-    max-width: 900px;
+	/* max-width: 900px; */
+    /* max-width: 1200px; */
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
-    border-radius: 4px
+    border-radius: 4px;
+	width: 1400px;
 }
 
 .project-image {
@@ -555,7 +557,7 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: 640px;
     padding: 15px
 }
 
