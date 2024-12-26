@@ -561,15 +561,33 @@ footer {
     padding: 15px
 }
 
+/* .project-info h1 { */
+/*     font-size: 1.5em; */
+/*     font-weight: 300; */
+/*     [> color: #374054; <] */
+/*     color: #ffffff; */
+/*     margin: 0 0 15px 0 */
+/* } */
+/*  */
+/* .project-info h2 { */
+/*     font-size: 1.5em; */
+/*     font-weight: 300; */
+/*     [> color: #374054; <] */
+/*     color: #00ffff; */
+/*     margin: 0 0 0px 0 */
+/* } */
+
 .project-info h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+	color: #374054;
+    /* color: #ff0000; */
     margin: 0 0 15px 0
 }
 
 .project-info p {
-    color: #74808a;
+	color: #74808a;
+    /* color: #0000ff; */
     margin: 0 0 15px 0;
     font-size: 0.9em
 }
