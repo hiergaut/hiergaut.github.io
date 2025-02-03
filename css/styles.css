@@ -547,6 +547,7 @@ footer {
     background: #fff;
     border-radius: 4px;
 	width: 1200px;
+	/* width: 800px; */
 }
 
 .project-image {
@@ -921,4 +922,10 @@ footer {
   content: "";
   display: table;
   clear: both;
+}
+
+:root {
+	--school: #fafaff;
+	--work: #fffafa;
+	--home: #fafffa;
 }
