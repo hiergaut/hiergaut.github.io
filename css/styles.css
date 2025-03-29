@@ -809,6 +809,10 @@ footer {
     .vtimeline-content {
         margin-left: 70px
     }
+
+    .project-info {
+		/* background-color: green; */
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -898,6 +902,7 @@ footer {
 
     .project-info {
         position: relative;
+		/* background-color: blue; */
 		/* margin: 0; */
 		/* margin: auto; */
 		/* margin: 2% auto 2% auto; */
@@ -932,7 +937,17 @@ footer {
         padding: 5px 10px
     }
 
+	#projects {
+		padding: 0px 0px;
+		/* border-bottom: 1px solid #dcd9d9; */
+		/* text-align: center */
+		/* text-align: left */
+	}
+
     .project-info {
+		/* background-color: red; */
+		/* font-size: 4; */
+		font-size: 0.6em
 		/* margin: 0; */
 		/* margin: 2% 2% 2% 2% */
         /* position: relative; */
@@ -941,6 +956,22 @@ footer {
         /* top: auto; */
         /* transform: none */
     }
+
+	/* .project-info h3 { */
+	/*     font-size: 0.5em; */
+	/*     font-weight: 100; */
+	/*     color: #374054; */
+	/*     [> color: #ff0000; <] */
+	/*     margin: 0 0 15px 0 */
+	/* } */
+
+	/* .project-info p { */
+	/*     color: #74808a; */
+	/*     [> color: #0000ff; <] */
+	/*     margin: 0 0 15px 0; */
+	/*     font-size: 0.5em */
+	/* } */
+    /*  */
 
 }
 
