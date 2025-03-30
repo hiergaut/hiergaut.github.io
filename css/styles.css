@@ -944,10 +944,26 @@ footer {
 		/* text-align: left */
 	}
 
+	#skills {
+		font-size: 0.6em
+	}
+
+	#education {
+		font-size: 0.8em
+	}
+
+	#experience {
+		font-size: 0.6em
+	}
+
+	.row {
+		font-size: 0.6em
+	}
+
     .project-info {
 		/* background-color: red; */
 		/* font-size: 4; */
-		font-size: 0.6em
+		/* font-size: 0.6em */
 		/* margin: 0; */
 		/* margin: 2% 2% 2% 2% */
         /* position: relative; */
