@@ -957,6 +957,17 @@ footer {
         /* transform: none */
     }
 
+	.project-image {
+		flex-direction: column;
+		/* text-align: center; */
+		/* justify-content: center; */
+		/* margin: auto; */
+	}
+
+	/* :root { */
+		/* --video: 200; */
+	/* } */
+
 	/* .project-info h3 { */
 	/*     font-size: 0.5em; */
 	/*     font-weight: 100; */
@@ -1010,4 +1021,5 @@ footer {
 	--school: #ffffff;
 	--work: #ffffff;
 	--home: #ffffff;
+	--video: 300;
 }
