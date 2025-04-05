@@ -570,7 +570,8 @@ footer {
 	/* width: 50%; */
 	/* text-align: left; */
 	display:flex; 
-	flex-direction:row;
+	/* flex-direction:row; */
+	flex-direction:column;
 }
 
 .project-info {
@@ -823,6 +824,7 @@ footer {
     }
 }
 
+
 @media only screen and (max-width: 992px) {
     #lead {
         height: auto;
@@ -1011,6 +1013,15 @@ footer {
 	/*     font-size: 0.5em */
 	/* } */
     /*  */
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+    .project-image {
+		flex-direction: row;
+	}
 
 }
 
