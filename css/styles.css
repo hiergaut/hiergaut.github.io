@@ -810,6 +810,14 @@ footer {
         margin-left: 70px
     }
 
+    .project-image {
+        /* display: none */
+		flex-direction: column;
+		/* text-align: center; */
+		/* justify-content: center; */
+		/* margin: auto; */
+	}
+
     .project-info {
 		/* background-color: green; */
     }
@@ -898,7 +906,11 @@ footer {
 
     .project-image {
         /* display: none */
-    }
+		flex-direction: column;
+		/* text-align: center; */
+		/* justify-content: center; */
+		/* margin: auto; */
+	}
 
     .project-info {
         position: relative;
