@@ -567,12 +567,14 @@ footer {
 	/* background-color:#000055; */
 	/* background-color:#000055; */
 	width: 50%;
+	/* width: 100%; */
+	/* width: 25%; */
     /* float: left */
 	/* width: 50%; */
 	/* text-align: left; */
 	display:flex; 
-	/* flex-direction:row; */
-	flex-direction:column;
+	flex-direction:row;
+	/* flex-direction:column; */
 }
 
 .project-info {
@@ -812,13 +814,13 @@ footer {
         margin-left: 70px
     }
 
-    .project-image {
-        /* display: none */
-		flex-direction: column;
-		/* text-align: center; */
-		/* justify-content: center; */
-		/* margin: auto; */
-	}
+    /* .project-image { */
+    /*     [> display: none <] */
+	/*     flex-direction: column; */
+	/*     [> text-align: center; <] */
+	/*     [> justify-content: center; <] */
+	/*     [> margin: auto; <] */
+	/* } */
 
     .project-info {
 		/* background-color: green; */
@@ -907,14 +909,14 @@ footer {
         float: none
     }
 
-    .project-image {
-        /* display: none */
-		flex-direction: column;
-		/* text-align: center; */
-		/* justify-content: center; */
-		/* margin: auto; */
-	}
-
+    /* .project-image { */
+    /*     [> display: none <] */
+	/*     flex-direction: column; */
+	/*     [> text-align: center; <] */
+	/*     [> justify-content: center; <] */
+	/*     [> margin: auto; <] */
+	/* } */
+    /*  */
     .project-info {
         position: relative;
 		/* background-color: blue; */
@@ -988,12 +990,12 @@ footer {
         /* transform: none */
     }
 
-	.project-image {
-		flex-direction: column;
-		/* text-align: center; */
-		/* justify-content: center; */
-		/* margin: auto; */
-	}
+	/* .project-image { */
+	/*     flex-direction: column; */
+	/*     [> text-align: center; <] */
+	/*     [> justify-content: center; <] */
+	/*     [> margin: auto; <] */
+	/* } */
 
 	/* :root { */
 		/* --video: 200; */
@@ -1017,14 +1019,15 @@ footer {
 
 }
 
-@media only screen and (min-width: 1024px) {
-
-
-    .project-image {
-		flex-direction: row;
-	}
-
-}
+/* @media only screen and (min-width: 1024px) { */
+/* [> [> @media only screen and (min-width: 10px) { <] <] */
+/*  */
+/*  */
+/*     .project-image { */
+/*         flex-direction: row; */
+/*     } */
+/*  */
+/* } */
 
 /* gauthier addition */
 
