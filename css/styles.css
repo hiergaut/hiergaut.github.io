@@ -532,7 +532,8 @@ footer {
 #projects {
 	padding: 50px 15px;
     border-bottom: 1px solid #dcd9d9;
-	text-align: center
+	text-align: center;
+	/* background-color: #00f; */
     /* text-align: left */
 }
 
@@ -549,7 +550,8 @@ footer {
 	/* margin: 0 auto 5% auto; */
 	/* margin: 10% auto 10% auto; */
     overflow: hidden;
-    background: #fff;
+    /* background-color: #0f0; */
+	background: #fff;
 	/* margin: 2% 2% 2% 2%; */
     /* border-radius: 10px; */
 	/* vertical-align: bottom; */
@@ -578,7 +580,10 @@ footer {
 }
 
 .project-info {
-	background-color:#fff;
+	/* background-color:#fff; */
+	/* background:#0f0; */
+	/* background-color:#f00; */
+	background-color: transparent;
 	width: 50%;
 	/* margin: 2% auto 2% auto; */
 	/* margin: 2% auto 2% auto; */
@@ -1047,6 +1052,7 @@ footer {
 .row {
   /* background-color: #eeeeee; */
   background: #f2f2f5
+  /* background: #00f; */
   /* margin-left: 10px; */
   /* margin: 10%; */
   /* float: left; */
