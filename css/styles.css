@@ -542,6 +542,11 @@ footer {
     margin-bottom: 50px
 }
 
+.display {
+	font-size: 0.1em;
+	background-color: #0f0;
+}
+
 .project {
     position: relative;
 	/* max-width: 900px; */
@@ -797,6 +802,10 @@ footer {
 
 @media only screen and (max-width: 750px) {
 
+	.display {
+		background-color: #ff0;
+	}
+
     #experience-timeline:before,
     #experience-timeline:after {
         left: 23px
@@ -834,6 +843,11 @@ footer {
 
 
 @media only screen and (max-width: 992px) {
+
+	.display {
+		background-color: #00f;
+	}
+
     #lead {
         height: auto;
         min-height: auto;
@@ -866,6 +880,11 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+
+	.display {
+		background-color: #f0f;
+	}
+
     header {
 		position: fixed;
 		display: none;
@@ -946,6 +965,11 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+
+	.display {
+		background-color: #f00;
+	}
+
     #lead-content h1 {
         font-size: 1.5em
     }
